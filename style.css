@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+    
+}
+input[type=text]{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+
+}
+.newbtn{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px ;
+}
+
+ul li{
+    background-color: cornsilk;
+    padding: 15px;
+    border-radius: 8px ;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0,0,0.2);
+}
+.btn-edit ion-icon,
+.btn-delete ion-icon{
+    pointer-events:none;
+}
